@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="inputBox" >
+        <h2>Passwort Generator</h2>
+        <input type="text" name="" id="passwort" title="Erstelltes Passwort" placeholder="Passwort erzeugen" readonly="" >
+        <img src="svg/bx-copy-alt.svg" class="copy" alt="Kopieren" title="Passwort kopieren" onclick="copyPassword()">
+        <div id="genBtn" title="Passwort generieren" onclick="getPassword()">Erstelle ein Passwort</div>
+        <div id="delBtn" title="Passwort löschen" onclick="delPassword()">Löschen</div>
+    </div>
+    <div class="setterBox">Zeichenanzahl
+        <input type="number" name="" id="setter" title="Anzahl der Zeichen" value="2" min="0" onchange="setpasswordLength()">
+    </div>
+    <div class="alertBox"></div>
+    <footer class="footer">
+        <p class="footer__title"><a href="https://webdesign-sj.com"> WebDesign &verbar; SJ </a></p>
+        <p><span id="copyright">&copy;&nbsp;</span>&nbsp;copyright all rights reserved</p>
+    </footer>
+    <script src="./script/passwordGenerator.js"></script>
+</body>
+</html>
