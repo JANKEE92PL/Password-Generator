@@ -11,5 +11,3 @@ You can set the Value of Numbers and than click the button to generate the Passw
 I hope you enjoy.
 
 Kind regards.
-
-webdesign-sj.com
